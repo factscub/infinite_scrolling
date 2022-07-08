@@ -1,0 +1,70 @@
+.card {
+    width: 400px;
+    height: 150px;
+    background-color: #474787;
+    margin: 10px auto;
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.details {
+    flex: 0.65;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.details>p {
+    margin: 8px auto;
+}
+
+.pic {
+    flex: 0.35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic>img {
+    border-radius: 50%;
+    /* object-fit: contain; */
+
+}
+
+/* Mobiles */
+@media (max-width: 640px) {
+    .App {
+        max-width: 100%;
+        padding: 0 0px;
+    }
+
+    .card {
+        width: 350px;
+        height: 150px;
+        padding: 5px;
+    }
+
+    .pic>img {
+        width: 110px;
+    }
+}
+
+@media (max-width:350px){
+    .App{
+      max-width: 95%;
+      padding: 0 0px;
+
+    }
+    .card {
+      width: 280px;
+      height: 150px;
+      padding: 5px;
+    }
+    
+    .pic>img {
+        width: 86px;
+    }
+  }

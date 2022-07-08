@@ -1,0 +1,26 @@
+.header {
+    height: 50px;
+    background: #40407a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.head-logo {
+    height: 44px;
+    margin: auto 20px;
+}
+
+.btn {
+    width: 70px;
+    background-color: aliceblue;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    margin: auto 30px;
+    font-size: large;
+    cursor: pointer;
+}

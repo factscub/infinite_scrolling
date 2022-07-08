@@ -1,0 +1,22 @@
+.loadmore {
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 50px;
+    color: white;
+    background-color: #474787;
+    cursor: pointer;
+}
+
+.home {
+    min-height: calc(100vh - 50px);
+    background: #2c2c54;
+
+}
+
+.cardlist {
+    display: flex;
+    flex-wrap: wrap;
+}
