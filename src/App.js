@@ -15,7 +15,7 @@ import Login from './pages/login/Login';
 ////////////////////////
 
 function App() {
-  const [auth, setAuth] = useState(true)
+  const [auth, setAuth] = useState(false)
   const location = useLocation()
 
   return (
